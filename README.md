@@ -6,6 +6,10 @@ Welcome to the CS-StoryForge repository! This small program is designed to gener
 
 See [example outputs](./example_outputs) from professional games
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/34284628/233686333-7d211d4e-5519-40ce-8c7b-35c7af2b648a.png" alt="Screenshot 2023-04-21 174739" style="width: 60%; height: auto;">
+</p>
+
 Please keep in mind it is currently in its first version (v1.0). As such, it may contain bugs and other issues.
 
 ## Installation and Usage
