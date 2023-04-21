@@ -1,0 +1,61 @@
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.out
+*.swp
+
+# Executables
+*_test
+
+# Folders
+vendor/
+dist/
+_build/
+pkg/
+
+# Dependency directories
+node_modules/
+Godeps/_workspace/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.iml
+
+# macOS generated files
+.DS_Store
+
+# Other
+*.log
+*.bak
+*.tmp
+*.orig
+*.rej
+*.sw?
+*.gz
+*.zip
+*.tar
+*.t?z
+*.tgz
+*.snappy
+*.bin
+*.pb.go
+*.gen.go
+
+# Test coverage
+*.coverprofile
+*.cover.out
+coverage.txt
+
+# Go modules
+go.sum
+go.mod
+!.gitkeep
+
+# Demo files
+demos
+*.dem
+*.info
