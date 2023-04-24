@@ -40,7 +40,9 @@ header {
 nav {
     display: flex;
     justify-content: center;
-
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: stretch;
 }
 
 nav ul {
@@ -69,6 +71,28 @@ nav ul li a:hover {
 /* Add a CSS rule for the new Source Code link */
 nav ul li a:focus {
     text-decoration: underline;
+}
+
+.navbar-item {
+    color: #fff;
+    padding: 0.5rem 0.75rem;
+}
+
+.navbar-menu {
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: stretch;
+    display: flex;
+}
+
+.navbar-menu-centered {
+    justify-content: center;
+}
+
+a {
+    color: #38bdf8;
+    cursor: pointer;
+    text-decoration: none;
 }
 
 main {
